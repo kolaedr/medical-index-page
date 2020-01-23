@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+	<title>Account</title>
+	
+	
+  </head>
+
+  <body>
+        <header class="container-fluid blur">
+                <!-- *********************************************** -->
+			<nav class="navbar  navbar-expand-sm text-light justify-content-center flex-fill index-header offset-md-1 col-sm-10 col-12">
+					<div class="col-10 col-sm-2 logo navbar-brand">
+							<a href="index.html"> <img src="res/images/MedicalSpaRX_Logow.png" alt=""></a>
+							<p>CALL US: 1-866-936-8410</p>
+						</div>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+								<span class="navbar-toggler-icon">
+										<i class="fa fa-navicon"></i>
+								</span>
+								<span class=" close">
+										<i class="fa fa-close"></i>
+								</span>
+						</button>
+				<div class="collapse navbar-collapse col-sm" id="collapsibleNavbar">
+				<ul class="navbar-nav nav-pills nav-justified col-sm">
+					<li class="nav-item">
+					  <a class="nav-link " href="#">Products</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="#">About Us</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="#">Group Buy</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="#">Blog</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="faq.html">FAQ</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="account.html">My Account</a>
+					</li>
+					<li class="nav-item my-cart-link">
+						<a class="nav-link my-cart myPopover" href="#" data-toggle="popover" data-popover-content="#a1" data-html="true" 
+						data-placement="bottom" >My cart</a>
+						
+					</li>
+					<li class="nav-item search dropleft" data-toggle="dropdown" data-display="static">
+						<!-- <a class="nav-link search" data-toggle="dropdown" data-display="static" ></a> -->
+							<div class="dropdown-menu">
+								<form class="px-4 py-3">
+								  <div class="form-group">
+									<nav class="navbar navbar-light ">
+										<form class="form-inline">
+											<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+											<button class="btn  btn-primary my-2 my-sm-0" type="submit">Search</button>
+										</form>
+									</nav>
+								  </div>
+								</form>
+							</div>
+
+							
+					</li>
+					<form class="form-inline search-mob ">
+							<input class="form-control mr-sm-2 col-8" type="search" placeholder="Search" aria-label="Search">
+							<button class="btn  btn-primary my-2 my-sm-0 offset-1" type="submit">Search</button>
+					</form>
+				  </ul>
+				</div>
+				
+				</nav> 
+				<!-- ******************************************* -->
+            </header>
+
+            <section class="container-fluid  offset-sm-1 col-sm-10 col-12 .no-gutters profile-select-body">
+                
+                <!-- <div class="col-12 col-sm-12 profile-select profile-select-body">
+                        <a href="" class="select col-12 col-sm-6 activ" onclick="ActivMenu()">Account Information</a>
+                        <div class="w-100"></div>
+                        <a href="" class="select col-sm-6 col-12 " onclick="ActivMenu()">Orders History</a>
+                </div>
+                <div class="w-100"></div> -->
+                <div class="profile-select col-sm-6 offset-sm-3">
+                        <a href="" class="select  activ" onclick="ActivMenu()">Account Information</a>
+                        <a href="" class="select  " onclick="ActivMenu()">Orders History</a>
+                </div>
+                                
+            </section>
+            <section class="container-fluid  offset-sm-1 col-sm-10 col-12 account-information .no-gutt">
+                        <form action="" class="col-12 col-sm-12 refer-form acc-pad">
+                            <div class="col align-self-end refer-form-list refer-form-list-3">
+                                    <section class="id-account">
+                                        <h4>Personal Information</h4>
+                                        <span class="id-number-account">Acc Number: 1465</span>
+                                    </section>
+                            
+                            <div class="">
+                                <label for="formGroupExampleInput" class="lebel-name hides">Username</label>
+                                <input type="text" class="input-name" id="formGroupExampleInput" placeholder="Username">
+                            </div>
+                            <div class="">
+                                <label for="formGroupExampleInput2" class="lebel-name hides">First Name</label>
+                                <input type="text" class="input-name" id="formGroupExampleInput2" placeholder="First Name">
+                            </div>
+                            <div class="">
+                                <label for="formGroupExampleInput" class="lebel-name hides">Last Name</label>
+                                <input type="text" class="input-name" id="formGroupExampleInput" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="col row change-pass ">
+                            <a href="" class="col-6 ch-pass">Change Password</a>
+                            <a href="" class="col-6 butt-blue acc-pad-btn">Edit Info</a>
+                        </div>
+                    </form>
+                    <form action="" class="col-12 col-sm-12 refer-form acc-pad">
+                            <div class="col align-self-end refer-form-list refer-form-list-3">
+                                <h4>Company Information</h4>
+                                <div class="">
+                                    <label for="formGroupExampleInput" class="lebel-name hides">Company Name</label>
+                                    <input type="text" class="input-name" id="formGroupExampleInput" placeholder="Company Name">
+                                </div>
+                                <div class="">
+                                    <label for="formGroupExampleInput2" class="lebel-name hides">Contact Name</label>
+                                    <input type="text" class="input-name" id="formGroupExampleInput2" placeholder="Contact Name">
+                                </div>
+                                <div class="">
+                                    <label for="formGroupExampleInput" class="lebel-name hides">Cell Number</label>
+                                    <input type="text" class="input-name" id="formGroupExampleInput" placeholder="Cell Number">
+                                </div>
+                            </div>
+                            <div class="col row change-pass">
+                                <a href="" class="col-6 offset-6 butt-blue acc-pad-btn">Edit Info</a>
+                            </div>
+                    </form>
+                    <form action="" class="col-12 col-sm-12 refer-form acc-pad-right">
+                            <div class="col align-self-end refer-form-list refer-form-list-2">
+                                <h4>Other Information</h4>
+                                <div class="">
+                                    <label for="formGroupExampleInput" class="lebel-name ">Preffered Language</label>
+                                    <select class="select-form-acc" placeholder="Preffered Language">
+                                        <option  >English</option>
+                                        <option>Deutsch</option>
+                                        <option>Spanish</option>
+                                        <option>Ukranian</option>
+                                    </select>
+                                </div>
+                                <div class="">
+                                    <label for="formGroupExampleInput2" class="lebel-name hides">Preffered Currency</label>
+                                    <select class="select-form-acc" placeholder="Preffered Language">
+                                            <option disabled selected>USD, US Dollar</option>
+                                            <option>USD, US Dollar</option>
+                                            <option>USD, US Dollar</option>
+                                    </select>
+                                </div>
+                                <section class="credit-account">
+                                    <span>Account Credit</span>
+                                    <span>$ 0 USD</span>
+                                    <span>Account Credit</span>
+                                    <span>$ 0 USD</span>
+                                </section>
+                            </div>
+                            <div class="col row change-pass">
+                                <a href="" class="col-6 offset-6 butt-blue acc-pad-btn">Edit Info</a>
+                            </div>
+                        </form>
+                    <form action="" class="col-12 col-sm-12 refer-form acc-pad">
+                            <div class="col align-self-end refer-form-list">
+                            <h4>Contact Information</h4>
+                            <div class="">
+                                <label for="formGroupExampleInput" class="lebel-name hides">Phone</label>
+                                <input type="text" class="input-name" id="formGroupExampleInput" placeholder="Phone">
+                            </div>
+                            <div class="">
+                                <label for="formGroupExampleInput2" class="lebel-name hides">Fax</label>
+                                <input type="text" class="input-name" id="formGroupExampleInput2" placeholder="Fax">
+                            </div>
+                            <div class="">
+                                <label for="formGroupExampleInput" class="lebel-name hides">Cell Number</label>
+                                <input type="text" class="input-name" id="formGroupExampleInput" placeholder="Cell Number">
+                            </div>
+                            <div class="">
+                                <label for="formGroupExampleInput2" class="lebel-name hides">Call-in Password</label>
+                                <input type="Email" class="input-name" id="formGroupExampleInput2" placeholder="Call-in Password">
+                            </div>
+                        </div>
+                        <div class="col row change-pass">
+                            <!-- <a href="" class="col-6">Change Password</a> -->
+                            <a href="" class="col-6 offset-6 butt-blue acc-pad-btn">Edit Info</a>
+                        </div>
+                    </form>
+                    <form action="" class="col-12 col-sm-12 refer-form acc-pad">
+                            <div class="col align-self-end refer-form-list">
+                            <h4>Location</h4>
+                            <div class="">
+                                <label for="formGroupExampleInput" class="lebel-name hides">First Name</label>
+                                <input type="text" class="input-name" id="formGroupExampleInput" placeholder="First Name">
+                            </div>
+                            <div class="">
+                                <label for="formGroupExampleInput2" class="lebel-name hides">Last Name</label>
+                                <input type="text" class="input-name" id="formGroupExampleInput2" placeholder="Last Name">
+                            </div>
+                            <div class="">
+                                <label for="formGroupExampleInput" class="lebel-name hides">Zip</label>
+                                <input type="text" class="input-name" id="formGroupExampleInput" placeholder="Zip">
+                            </div>
+                            <div class="">
+                                <label for="formGroupExampleInput2" class="lebel-name hides">Suite/Unit Number</label>
+                                <input type="Email" class="input-name" id="formGroupExampleInput2" placeholder="Suite/Unit Number">
+                            </div>
+                        </div>
+                        <div class="col row change-pass">
+                            <!-- <a href="" class="col-6">Change Password</a> -->
+                            <a href="" class="col-6 offset-6 butt-blue acc-pad-btn">Edit Info</a>
+                        </div>
+                    </form>
+                    <form action="" class="col-12 col-sm-12 refer-form acc-pad-right">
+                            <div class="col align-self-end refer-form-list">
+                            <h4>Medical Information</h4>
+                            <div class="">
+                                <label for="formGroupExampleInput" class="lebel-name hides">Medical Professional Name</label>
+                                <input type="text" class="input-name" id="formGroupExampleInput" placeholder="Medical Professional Name">
+                            </div>
+                            <div class="">
+                                <label for="formGroupExampleInput2" class="lebel-name hides">Licence Number</label>
+                                <input type="text" class="input-name" id="formGroupExampleInput2" placeholder="Licence Number">
+                            </div>
+                            <div class="">
+                                <label for="formGroupExampleInput" class="lebel-name hides">License Expry Date</label>
+                                <input type="text" class="input-name" id="formGroupExampleInput" placeholder="License Expry Date">
+                            </div>
+                            <div class="">
+                                <label for="formGroupExampleInput2" class="lebel-name hides">Profession</label>
+                                <input type="Email" class="input-name" id="formGroupExampleInput2" placeholder="Profession">
+                            </div>
+                        </div>
+                        <div class="col row change-pass">
+                            <!-- <a href="" class="col-6">Change Password</a> -->
+                            <a href="" class="col-6 offset-6 butt-blue acc-pad-btn">Edit Info</a>
+                        </div>
+                    </form>
+                </section>
+            <footer>
+                <div class="row no-gutt">
+                    <div class="col-12 col-sm-6  row row-mob foot-right ">
+                        <div class="col col-sm-5  align-self-start">
+                                <img src="res/images/MedicalSpaRX_Logow.png" alt="" class="foo-img">
+                            <ul class="list-unstyled">
+                                <li><a href="tel:1-866-936-8410">Phone: 1-866-936-8410</a></li>
+                                <li><a href="mailto:info@medicalsparx.com">Email: info@medicalsparx.com</a></li>
+                                <li><a href="fax:1-866-315-9702">Fax: 1-866-315-9702</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-sm-3 offset-sm-0 align-self-start">
+                            <ul class="list-unstyled">
+                                <li><a href="">Products</a></li>
+                                <li><a href="">About Us</a></li>
+                                <li><a href="">Group Buy</a></li>
+                                <li><a href="">Blog</a></li>
+                                <li><a href="">FAQ</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-sm-4 offset-sm-0 align-self-start">
+                            <ul class="list-unstyled">
+                                <li><a href="">Contact Us</a></li>
+                                <li><a href="">Privacy Policy</a></li>
+                                <li><a href="">Terms & Conditions</a></li>
+                                <li><a href="">Shipping and Returns</a></li>
+                                <li><a href="">Site Map</a></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                    <div class="col-12 col-sm-6 offset-sm-0 align-self-start">
+                        <p>
+                        Some products may look slightly different than in the pictures shown on our site. Some products may have some foreign language on it depending on its country of origin. However, most products have predominantly English language packaging
+                        </p>
+                        <a href="" class="ref-foot">Referral Program</a>
+                        <p>
+                        © 2017 Medical Spa Rx <br>
+                        All trademarks and registered trademarks are the property of their respective owners
+                        </p>
+                                        
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col-12 col-sm-6 offset-sm-0">
+                            <form >
+                                <input type="email" class="" id="email" placeholder="Enter Your Email to Receive Our Newsletter">
+                                <button type="submit" class="" id="" placeholder="submit">Receive</button>
+                            </form>
+                                    
+                    </div>
+                    <div class="col-12 col-sm-6 offset-sm-0 subscribe">
+                            <i class="fa fa-facebook-square"></i>
+                            <i class="fa fa-google-plus-square"></i>
+                            <i class="fa fa-twitter-square"></i>
+                                    
+                    </div>
+                </div>
+                
+            </footer>	
+            <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+            $(document).ready(function(){
+              $('[data-toggle="popover"]').popover(); 
+            });
+    
+            $('.input-name').on('keyup',function(){
+            var $this = $(this), val = $this.val();
+            var parent = $this.parent();
+            if(val.length >= 1){
+                $('.lebel-name', parent).addClass('vis').removeClass('hides');
+            }else {
+                $('.lebel-name', parent).addClass('hides').removeClass('vis');
+            }
+            });
+
+            
+            $(document).on("click", ".select", function () {  
+                $(".account-information").removeClass('none');
+            });
+                
+
+        //     $(document).on("click", ".select", function () {      //show/hide full info
+        //      var parent = $(this).parents(".profile-select");
+        //      var isOpen = $(parent).hasClass("none");
+
+        //      if (isOpen) {
+        //          $(".account-information").removeClass('none');
+        //          $(".select").none
+        //         //  $(parent).removeClass('open');
+        //         //  $(parent).addClass('select-line-height');
+
+        //      } else {
+        //          $(".select-line-plus-all").hide();
+        //          $(".select-line").removeClass('open');
+        //          $(parent).removeClass('select-line-height');
+        //          $(".select-line-plus-all", parent).show("slow");
+        //          $(parent).addClass('open');
+        //      }
+        //      ;
+        //  });
+
+            // $('.select').click(function(){
+            //         $('.account-information-2').addClass('activ');
+            //     });
+            
+           
+
+            // $('.select').on('click',function(){
+            // var $this = $(this), val = $this.val();
+            // var parent = $this.parent();
+            
+            //     $('.account-information-1', parent).addClass('none', 'activ');
+            //             });
+
+    // 		$(function(){
+    //     $("[data-toggle=popover]").popover({
+    //         html : true,
+    //         content: function() {
+    //           var content = $(this).attr("data-popover-content");
+    //           return $(content).children(".popover-body").html();
+    //         },
+    //         title: function() {
+    //           var title = $(this).attr("data-popover-content");
+    //           return $(title).children(".popover-heading").html();
+    //         }
+    //     });
+    // });
+            </script>
+    </body>
+    </html>
